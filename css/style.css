@@ -2,6 +2,22 @@ body{
 	background-color:black;
 }
 
+header{
+	boder: solid;
+}
+
+content{
+	boder: solid;
+}
+
+aside{
+	boder: solid;
+}
+
+footer{
+	boder: solid;
+}
+
 h1{
 	color:white;
 }
