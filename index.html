@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>Whisper World</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<h1>Hier entsteht hoffentlich etwas cooles!</h1>
+<?php
+$inhalt = "0";
+
+$handle = fopen ("Datenbank.txt", w);
+fwrite ($handle, $inhalt);
+fclose ($handle);
+
+echo "Der Wert $inhalt wurde gespeichert ";
+echo "in der Datei besucherzaehler.txt";
+?>
 </body>
 </html>
