@@ -6,14 +6,20 @@
 <body>
 <h1>Hier entsteht hoffentlich etwas cooles!</h1>
 <?php
-$inhalt = "0";
-
-$handle = fopen ("Datenbank.txt", w);
+$dateinamen = "besucherzaehler.txt";
+$handle = fopen ($dateinamen, "r");
+$inhalt = fread ($handle, filesize ($dateinamen));
+fclose ($handle);
+ 
+$inhalt = $inhalt + 1;
+echo "<p>bisher <b>$inhalt</b> Besucher hier</p>";
+ 
+// Schreiben des neuen Wertes
+$handle = fopen ("besucherzaehler.txt", "w");
 fwrite ($handle, $inhalt);
 fclose ($handle);
-
-echo "Der Wert $inhalt wurde gespeichert ";
-echo "in der Datei besucherzaehler.txt";
+ 
+echo "Wert $inhalt in Datei besucherzaehler.txt geschrieben";
 ?>
 </body>
 </html>
