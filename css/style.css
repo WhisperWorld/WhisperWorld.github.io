@@ -2,22 +2,38 @@ body{
 	background-color:grey;
 }
 
+
 header{
-	boder: solid;
+	margin: auto;
+	margin-top:1%;
+	width:50%;
+	border-color: green;
+	border-width: 5px;
+	border-style: solid;
 }
 
-content{
-	boder: solid;
+#main{
+	margin-left: 24.75%;
+	width: 39.5%;
+	border-color: green;
+	border-width: 5px;
+	border-style: solid;
 }
 
 aside{
-	boder: solid;
+	float:right;
+	margin-right:24.75%;
+	width:10%;
+	border-color: green;
+	border-width: 5px;
+	border-style: solid;
 }
 
 footer{
-	boder: solid;
-}
-
-h1{
-	color:black;
+	margin: auto;
+	width: 50%;
+	margin-top:1%;
+	border-color: green;
+	border-width: 5px;
+	border-style: solid;
 }
