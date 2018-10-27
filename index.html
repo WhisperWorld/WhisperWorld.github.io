@@ -2,24 +2,17 @@
 <html>
 <head>
 <title>Whisper World</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>Hier entsteht hoffentlich etwas cooles!</h1>
-<?php
-$dateinamen = "besucherzaehler.txt";
-$handle = fopen ($dateinamen, "r");
-$inhalt = fread ($handle, filesize ($dateinamen));
-fclose ($handle);
- 
-$inhalt = $inhalt + 1;
-echo "<p>bisher <b>$inhalt</b> Besucher hier</p>";
- 
-// Schreiben des neuen Wertes
-$handle = fopen ("besucherzaehler.txt", "w");
-fwrite ($handle, $inhalt);
-fclose ($handle);
- 
-echo "Wert $inhalt in Datei besucherzaehler.txt geschrieben";
-?>
+<head>
+</head>
+<content>
+<div align="center"> <h1>Hier entsteht hoffentlich etwas cooles!</h1></div>
+</content>
+<aside>
+</aside>
+<footer>
+</footer>
 </body>
 </html>
