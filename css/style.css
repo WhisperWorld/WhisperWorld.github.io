@@ -6,34 +6,28 @@ body{
 header{
 	margin-top:-0.9%;
 	margin-left:-0.9%;
-	width:101.8%;
+	width:101.3%;
 }
 
 #main{
-	margin-left: 24.75%;
-	width: 39.5%;
-	border-color: green;
-	border-width: 5px;
-	border-style: solid;
+	padding:1%;
+	width: 83.5%;
+	height:90vh;
+	margin-top:-0.9%;
+	margin-left:14.4%;
 }
 
 aside{
-	float:right;
-	margin-right:24.75%;
-	width:10%;
-	border-color: green;
+	float:left;
+	margin-left:-0.58%;
+	width:14.5%;
+	height: 99vh;
+	border-color: #D8D8D8;
+	background-color: #D8D8D8;
 	border-width: 5px;
 	border-style: solid;
 }
 
-footer{
-	margin: auto;
-	width: 50%;
-	margin-top:1%;
-	border-color: green;
-	border-width: 5px;
-	border-style: solid;
-}
 
     ul{
         padding: 0;
@@ -47,9 +41,6 @@ footer{
         text-align: left;
     }
 	
-	.ausnahme{
-		margin-left:15%;
-	}
 	
     ul li a{
         display: block;
