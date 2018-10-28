@@ -27,7 +27,10 @@ aside{
 	border-width: 5px;
 	border-style: solid;
 }
-
+.autoimage{
+	width:100%;
+	height:auto;
+}
 
     ul{
         padding: 0;
